@@ -1,0 +1,1237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DX::DeviceResources" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qgAIhAAAAAIWAJBEwAIBKAKQFRAAAIrQIEWkBiyEIIo=</HashCode>
+      <FileName>DeviceResources.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DX::StepTimer" Collapsed="true">
+    <Position X="27.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQEQAAAAQEQAABQEAIAIAAIAABQCAAgCAwBQJAAwAA=</HashCode>
+      <FileName>StepTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DX::com_exception" Collapsed="true">
+    <Position X="29.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMain" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQACAAACAAAQsAAAAAAAABCAAAgAhAABAAABAAEAA=</HashCode>
+      <FileName>Game\GameMain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IScene" Collapsed="true">
+    <Position X="5.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAAwAAAAUAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\IScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TitleScene" Collapsed="true">
+    <Position X="3" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACIAAAwAAAAUgQIAAACAAgIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\TitleScene\TitleScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoseScene" Collapsed="true">
+    <Position X="5.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAACAAAAwAAAAUgAAAAABAAgAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Game\ResultScene\LoseScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinScene" Collapsed="true">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAACIAAAwAAAAUgAAAAAAAAgAAAAgAAAAQAAAA=</HashCode>
+      <FileName>Game\ResultScene\WinScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI" Collapsed="true">
+    <Position X="36.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYeAQIqEAMAA4AAIAAAAAAIgEQAAEEEAMIgAAQEEoI=</HashCode>
+      <FileName>Game\UI\UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeOfDay" Collapsed="true">
+    <Position X="31" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQACAAACAAAAwAQCAEQhMAAACAAAAAAAACgIgAKAAA=</HashCode>
+      <FileName>Game\UI\TimeOfDay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoneyTexture" Collapsed="true">
+    <Position X="22.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAACAAAAyCAAAAAAAAAAAAAAACAAAAAAAAAABA=</HashCode>
+      <FileName>Game\UI\MoneyTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhaseCursorManager" Collapsed="true">
+    <Position X="31" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAQAAAEAgAABAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Game\UI\PhaseCursorManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhaseCursor" Collapsed="true">
+    <Position X="29.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAwAAAAAQAAgAAAAAAAAQAABAAAAAAAA=</HashCode>
+      <FileName>Game\UI\PhaseCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedAssert" Collapsed="true">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQQAAACAAAAQwAAAAAAgAABAEAAABBAAAAAAAAAAAg=</HashCode>
+      <FileName>Game\UI\RedAssert.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerActionInfo" Collapsed="true">
+    <Position X="34.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAGAAAAAAAAwAAAABwQBlAAAA4AAAQAAACBQAQIAI=</HashCode>
+      <FileName>Game\UI\PlayerActionInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyTracker" Collapsed="true">
+    <Position X="32.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQgQAAAQAAAAAiAAABkAIAhAAIAkAQCIAJhgCgBYEAA=</HashCode>
+      <FileName>Game\Tracker\KeyTracker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageSelectScene" Collapsed="true">
+    <Position X="0.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYiAAQICDQAAxAgACUkSAgA4AAAgCBAgCCgCACAAAA=</HashCode>
+      <FileName>Game\StageSelect\StageSelectScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageInfomation" Collapsed="true">
+    <Position X="22.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAgQAAAAAwIEAQAAQgAAAAAAAAAAAABAACAAEAA=</HashCode>
+      <FileName>Game\StageSelect\StageInfomation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageLevel" Collapsed="true">
+    <Position X="24" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAyAAACAAAAIAAAAEACAAAAAAQAAAAAA=</HashCode>
+      <FileName>Game\StageSelect\StageLevel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StageNumberTag" Collapsed="true">
+    <Position X="25.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIBAAAIAQAAAAwAACAAAAABACAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Game\StageSelect\StageNumberTag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConfirmationScreen" Collapsed="true">
+    <Position X="32.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgSCAABIABIAAwAAABAAAgggAAAAAEAABAAAAAIwAAg=</HashCode>
+      <FileName>Game\StageSelect\ConfirmationScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectXtkIF" Collapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAACACQAAEAAACAABQAAAAQIAgBAAAAIA=</HashCode>
+      <FileName>Game\Interface\DirectXTKInterface\DirectXTKInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PtoRSceneInterface" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAIAAAEAAAAAAABAAABAAAAAACAgAAQAAAA=</HashCode>
+      <FileName>Game\Interface\SceneInterface\PtoRSceneInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StoPSceneInterface" Collapsed="true">
+    <Position X="29.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABAAAAAAQAAACAAACAAAABAAGAAAAEwAAAAAAA=</HashCode>
+      <FileName>Game\Interface\SceneInterface\StoPSceneInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimerInterface" Collapsed="true">
+    <Position X="34.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAgAFAAgAAAAAgAEBABAA=</HashCode>
+      <FileName>Game\Interface\TimerInterface\TimerInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraInfoIF" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEQAAAAgAAAAEAAABAQCABAAAAQQAAhBAAAAAA=</HashCode>
+      <FileName>Game\Interface\CameraInfoInterface\CameraInfoInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResourceManager" Collapsed="true">
+    <Position X="27.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAIIQAAAAEAEAAABAIAgAAAAAAgAQQIAAA=</HashCode>
+      <FileName>Game\Manager\ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Money" Collapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAgAAAAAAIAAAgAAAAAAJAABgAQAEggAAAQAA=</HashCode>
+      <FileName>Game\Money\Money.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITexture" Collapsed="true">
+    <Position X="4.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJACAAEAAAQAAwBAEAAQAAgAACAACAAAIAACEgAAAAA=</HashCode>
+      <FileName>Game\Common\ITexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectSpriteTexture" Collapsed="true">
+    <Position X="3.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAECAAEAAwAAAAAIAQgAAGAAAAACAAAAAAEAAAA=</HashCode>
+      <FileName>Game\Common\ObjectSpriteTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectTexture" Collapsed="true">
+    <Position X="5.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAgAIAAAABCAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Game\Common\ObjectTexture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursor" Collapsed="true">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAASAAAwAAAAAAAAAAIAAAAQAAAAAAEQCAEAA=</HashCode>
+      <FileName>Game\Common\Cursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blinking" Collapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAASAAAABAAAAAQAAAAEAAAAQAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Common\Blinking.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cloud" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAJwAIxAAACAAAAAQSAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Common\Cloud.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayScene" Collapsed="true">
+    <Position X="9.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYiQIkBSASAowQAETUgDAAFKSA0hkgECKUjIAAFAZY=</HashCode>
+      <FileName>Game\PlayScene\PlayScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DamageTimer" Collapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQCAAAAACAAACACAAEAAAAAAAAAAACAEAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\DamageTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlatPolygon" Collapsed="true">
+    <Position X="0.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwBAAAAAAAAAACAADAAAAAIAEgAAAAQ=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\FlatPolygon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlatPolygonBase" Collapsed="true">
+    <Position X="0.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAwAAAAAAAAAAAEAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\FlatPolygonBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ground" Collapsed="true">
+    <Position X="29.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAAAAgAAAAAAAAAAAAAAAAAAECA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Ground.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Protecter" Collapsed="true">
+    <Position X="22.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMEAEAABAAAAAwAAAAEAAAAAAAAAABIAAAAABIBAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Protecter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shadow" Collapsed="true">
+    <Position X="0.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Shadow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Administrator" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIUEAALAgAAAAAAEAAAAAQAAAA2gAgEA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Administrator\Administrator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CelestialSphere" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAAAAgAAAwAAgAAAAAAAAAAAAAQAABAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Administrator\CelestialSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Score" Collapsed="true">
+    <Position X="32.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAgAAAAAAAAAAAAAAQAAACAAACAAAAg=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Administrator\Score.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="32.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAQAAAAQAAAAAAEAAAAAAAAgAAGAEAEAAQ=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Administrator\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="32.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EERFRAAQCAEAAyCAMABAIEQEAMAopKBQEIkAAQoEAJE=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionStateAttackEnemy" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASgAIEAGCAABwEAAAAgAAhUAAAAIAAACAgAAAAAAJU=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\ActionStateAttackEnemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionStateBase" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAABwAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\ActionStateBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActionStateDefenseHouse" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAABwACgAEAAAAAAAAAgAAAAAAIAAgAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\ActionStateDefenseHouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimationModel" Collapsed="true">
+    <Position X="10.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAgBAAGQCIIgAAUBAIAAgAAAAICAhAJIAAEgAAAIU=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\Animation\AnimationModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NormalAttackAnim" Collapsed="true">
+    <Position X="27.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgQAQBwAAAAAAAAgAAAAgAAAAMAAAIggAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\Animation\NormalAttackAnim.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefenseActionBlockCreate" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sAAAAAAAAIAABwAgAAAAAAAAAAAAEEAABCEAAAAAAIA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\Defense\DefenseActionBlockCreate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerStateBase" Collapsed="true">
+    <Position X="3" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAABBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\PlayerStateBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PStateDamage" Collapsed="true">
+    <Position X="3" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABwAAAAAAAAAAgAAAAAAAIAAAIAAAAIg=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\PStateDamage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PStateStand" Collapsed="true">
+    <Position X="5.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABwABAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\PStateStand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PStateWalk" Collapsed="true">
+    <Position X="0.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAABAAAKAABwugQEGICAAAAAAEKAQCAJAAQAAAgIA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\PStateWalk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Block" Collapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEFAEAQAAAAwAAAAAIAAAACAQAgEAgAAAQQCAAIIM=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Block\Block.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockManager" Collapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAASAi0AAAIAAAAAAAAACgAAEAAAIAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Block\BlockManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BKStateArchitecture" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABQAAGJAABBAQAAAEACAAAABAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Block\BKStateArchitecture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BKStateNormal" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABQAAAIAABAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Block\BKStateNormal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockKindBase" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAADQAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Block\BlockKindBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="32.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>p1wjMhOkQIgAoziAtLQIK0AEUAAkvRDlZMZBBOAUAgs=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyCall" Collapsed="true">
+    <Position X="34.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAAAAEABAAEAAAAAAQgAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EnemyCall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyManager" Collapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQFQcAKgBADBwECAIBAwQBAoIARhHUGCACAUABEBAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EnemyManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyStateBase" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAABwAAAAAAAAAAAAAAEAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EnemyStateBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EStateAppearance" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAABwQAAICAAAABAAASEAEAABAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EStateAppearance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EStateAttack" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAMAAEAADQCBAIAAAAAQAAAAMCAEAACAAIAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EStateAttack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EStateBlinking" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAABQAAAIAAAIAAAAAAEAAAIAAQAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EStateBlinking.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EStateBuried" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAABwAAAIAAAAAAAQAgEAAAAAAIABAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EStateBuried.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EStateKnockBack" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAABUAAEIAAACAUAAAAUFAAABAAgAIAEQA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EStateKnockBack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EStateRotation" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgQACAAAAAAAJQAAIIABACEQCAAA0AEAAABAACCBAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EStateRotation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EStateWalk" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASCgAABABAgBQQAAIAAACAQAAAAUBBAAAAAAAAQAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\EStateWalk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridLine" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAACAAAACA0AAABAAgAAAAAgBAAAgAAICQAAABAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GridLine\GridLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GridLineManager" Collapsed="true">
+    <Position X="27.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAYAAAQAAAAAAwAAQICCgACAAAAACAAkgAAAAAAAIAg=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GridLine\GridLineManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoxModel" Collapsed="true">
+    <Position X="15.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAEAAAAAAAAAAAAAAAAGAAAAQAGAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\ObjectModel\BoxModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IModel" Collapsed="true">
+    <Position X="14" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\ObjectModel\IModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectModel" Collapsed="true">
+    <Position X="14" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIRAgBBAGYKIIgAAEAEIEAgAAAAICApQPIABEgAAABU=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\ObjectModel\ObjectModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectSpriteModel" Collapsed="true">
+    <Position X="17.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAghAIEYMaIgAAEIEIAAgAQAAAGAhCIIASAgACALE=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\ObjectModel\ObjectSpriteModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SphereModel" Collapsed="true">
+    <Position X="13" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAACAIAAAAEAgAQAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\ObjectModel\SphereModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wall" Collapsed="true">
+    <Position X="22.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAAAAAgASAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Wall\Wall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WallManager" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAA0AAAgAAAEAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Wall\WallManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponBase" Collapsed="true">
+    <Position X="5.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAIAAECEAAABwAAASECBAAIAABIAoAAAAAAAIkAAJA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponBomb" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAIAAABwBAAAIAAACABACIAQQAAACAAIAAAAE=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponBomb.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponBoomerang" Collapsed="true">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAAAAB8AAAAAAABAABAAIAQAACAAAAJAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponBoomerang.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponHand" Collapsed="true">
+    <Position X="25.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIRIAAFAAQgABxAAAAAAgAEUAAAAAAUAFABAHAAAEIA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponHand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponMachineGun" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAABwAAAAAgAAAABAEIAAACAAEQAIAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponMachineGun.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponManager" Collapsed="true">
+    <Position X="27.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAMCAAAAAAAAA4AEAQAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponPistol" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAABwACAAAAAAAABAIIAAgQAAAAAIAAAAE=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponPistol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeaponRocketLauncher" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAEAAgABwAAAAAAAAAEBAAIAEAAAAIAAIAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponRocketLauncher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroundObjectConifer" Collapsed="true">
+    <Position X="0.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAwAAAAACAAAAAAQJAAAAQAIAQAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GroundObject\GroundObjectConifer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroundObjectConiferGroup" Collapsed="true">
+    <Position X="3" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIAAAAAwAAAAACAAAAAAAJAAAAQAIAAgAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GroundObject\GroundObjectConiferGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroundObjectManager" Collapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQMQEAACAACI0CBgEAEAIRUghAEQAAEAAEAFQEwAAE=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GroundObject\GroundObjectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroundObjectMoveCar" Collapsed="true">
+    <Position X="5.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAACAAAgAAyAAAAAAAQABAAAAgAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GroundObject\GroundObjectMoveCar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroundObjectShop" Collapsed="true">
+    <Position X="7.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASACAACAAAAAxAAAAgEAAIAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GroundObject\GroundObjectShop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IGroundObject" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAwAACAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GroundObject\IGroundObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACaEBAEEAFAAAwABCIACggAAAAEAIEAsAAAgASAwgQo=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Bullet\Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletManager" Collapsed="true">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQIAADEBAYAAwAAgARyAAIBAABAAEAAAEAAAEgAAAI=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Bullet\BulletManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletStateBase" Collapsed="true">
+    <Position X="15" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAgAAAAAAAAAABAAAAAAgAAAAAAAQ=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Bullet\BulletStateBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletStateBoomerang" Collapsed="true">
+    <Position X="12.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAESMiABAAUICAAAAAAkAAQABAAIKIoAACAAIA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Bullet\BulletStateBoomerang.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletStateExplosion" Collapsed="true">
+    <Position X="15" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAAAAAIAABwAAAAIAAAIAAIAAAQAAAAAAAAAgAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Bullet\BulletStateExplosion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletStateNormalBullet" Collapsed="true">
+    <Position X="17.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Bullet\BulletStateNormalBullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletType" Collapsed="true">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAAAAAAAABCAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Bullet\BulletType.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotWeaponSample" Collapsed="true">
+    <Position X="31" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgAAAABwAAABAAAUAAIAIAAAAgAAAAAgAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneShop\RotWeaponSample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DangerousLine" Collapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAwAAAAAAAAgAAAIAAAAAAAASAEAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneDefence\DangerousLine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreparingBlock" Collapsed="true">
+    <Position X="36.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEwAECAAAoADAxABAMACAIAAQCAgAAAAGAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneDefence\PreparingBlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloatNumber2D" Collapsed="true">
+    <Position X="13.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRACAAAQAAABwAAAAAAAAQAAAEgAEABAAAAAAIACAg=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneDefence\FloatNumber2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloatNumber3D" Collapsed="true">
+    <Position X="15.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRACAAAQAAABwAAAAAAAAQBAAEgAEACAAAAAAAAAAg=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneDefence\FloatNumber3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NumberBase" Collapsed="true">
+    <Position X="14.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAIEAAAAAAAAAAAYAAEA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneDefence\NumberBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveNumber" Collapsed="true">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAAgwEAAAAAAAAAAAAAAAAEAAAQAAAgAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneResult\MoveNumber.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveString" Collapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQQAAAAwACEgAKAAAACADAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneResult\MoveString.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultInfo" Collapsed="true">
+    <Position X="29.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAIAAAAAAAgQAAAAAAAAAAJAAAAAQAAAAAgAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneResult\ResultInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayScenePhaseBase" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GBQCwIABCAQAhwQAAQEgABAEAAAQAAAAAAECAIAEgJQ=</HashCode>
+      <FileName>Game\PlayScene\PlayScenePhase\PlayScenePhaseBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PScenePhaseCountDown" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAABwACBAAIIAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlayScenePhase\PScenePhaseCountDown.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PScenePhaseDefense" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQEAAAQAAAAFxAAIAAICAABIIAggAAAAAgBABAAQAA=</HashCode>
+      <FileName>Game\PlayScene\PlayScenePhase\PScenePhaseDefense.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PScenePhaseEndAnimation" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACACABwEAAAAIAAEAAAAAAAAAACIAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlayScenePhase\PScenePhaseEndAnimation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PScenePhaseResult" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAQEACICAIwBAAwAoYQAACAhAABABiQAgAAQCAAA=</HashCode>
+      <FileName>Game\PlayScene\PlayScenePhase\PScenePhaseResult.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PScenePhaseRotationCamera" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAACAgABwEABAAIAAAAgAAAIgAAAAEAIAAAEAA=</HashCode>
+      <FileName>Game\PlayScene\PlayScenePhase\PScenePhaseRotationCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PScenePhaseWeaponShop" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFQhANRAMAAAh1AAAAAYBAAEAICAgCgABYAgAAAAABA=</HashCode>
+      <FileName>Game\PlayScene\PlayScenePhase\PScenePhaseWeaponShop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Collider" Collapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAEAAAACARAAAAQAACgAAQAAAA=</HashCode>
+      <FileName>Game\PlayScene\Collider\Collider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectSpriteTexture" Collapsed="true">
+    <Position X="31" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BITIgAUKEREAAUBAFBAYAQgAACAgjAIAKgIREgAAQiE=</HashCode>
+      <FileName>Game\PlayScene\Effect\Effect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EffectManager" Collapsed="true">
+    <Position X="29.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAIAwAAAAAAAAABBACQggQAAAAgIQAAAAA=</HashCode>
+      <FileName>Game\PlayScene\Effect\EffectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndAnimationBase" Collapsed="true">
+    <Position X="9.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAAwAAAAAAAAABgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneEndAnimation\EndAnimationBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndAnimationLose" Collapsed="true">
+    <Position X="8.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABRCCECCCAAIAwAAAAAgAQAAAAABAAAAAAA0AIAACAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneEndAnimation\EndAnimationLose.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndAnimationWin" Collapsed="true">
+    <Position X="10.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAACIRAAwAQAAAAgAAgABAAgAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneEndAnimation\EndAnimationWin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADX2" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAYAQAAAEABAAAgAAgAKAoAAAAAAQBAA=</HashCode>
+      <FileName>Libraries\MyLibraries\Adx2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera" Collapsed="true">
+    <Position X="15" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAEAAAAAAAAIYAAAAIAAAwAAAAAQgAAAIAAAABA=</HashCode>
+      <FileName>Libraries\MyLibraries\Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedPointCamera" Collapsed="true">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAAAA=</HashCode>
+      <FileName>Libraries\MyLibraries\FixedPointCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraBase" Collapsed="true">
+    <Position X="15" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAgADBCAEQAQAAAAAIkQAAACQAAgiABAAgABAAAAA=</HashCode>
+      <FileName>Libraries\MyLibraries\CameraBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RotationCamera" Collapsed="true">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIAABEAIIAAAAIAABQAAgAAEAEACAABAABA=</HashCode>
+      <FileName>Libraries\MyLibraries\RotationCamera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAQQAQAGAAAAgAAEACgEAAACAJACAARMQAQ=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DirectX::CommonStates" Collapsed="true">
+    <Position X="31" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAQQgAAAAAIAiEoAAkAAAAAAAAQACAAQAAiAQAIAAg=</HashCode>
+      <FileName>Libraries\DirectXTK\Inc\CommonStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectX::SpriteFont" Collapsed="true">
+    <Position X="36.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAICAEABAAEQAAAQAAAAAAAARAAAAAADAgAAAAAAA=</HashCode>
+      <FileName>Libraries\DirectXTK\Inc\SpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectX::SpriteBatch" Collapsed="true">
+    <Position X="34.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIIAAAAAAACAAgAAAAAAIAAAAAAAEAgEQAAkAAAAAAA=</HashCode>
+      <FileName>Libraries\DirectXTK\Inc\SpriteBatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectX::BasicEffect" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAQgAEQABABQAoAgEgQBAQACCAAIkAUQAAgEAAEQBA=</HashCode>
+      <FileName>Libraries\DirectXTK\Inc\Effects.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectX::Model" Collapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQBAAAACAAAAAgAgABAAAAAAAAAEAAACAAggAAAAAIA=</HashCode>
+      <FileName>Libraries\DirectXTK\Inc\Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MoveSpeed" Collapsed="true">
+    <Position X="31" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\ObjectMove.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vector2XZ" Collapsed="true">
+    <Position X="22.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAQAAAAA=</HashCode>
+      <FileName>Game\PlayScene\Utility.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Utility" Collapsed="true">
+    <Position X="36.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEABAAAEAAAAIAAAAAAgAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\Utility.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WallConstant" Collapsed="true">
+    <Position X="25.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAABAgAAAAAAAQAAAAAAAAHAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Wall\WallConstant.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BulletInfomation" Collapsed="true">
+    <Position X="24" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAACAIAAAACAIAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Bullet\BulletType.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Gravity" Collapsed="true">
+    <Position X="27.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneDefence\Gravity.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ResultDrawStringConstant" Collapsed="true">
+    <Position X="32.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQAIAAAAMAAAAAAQAAAAAAAAgAIAAAAAKAIQAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneResult\ResultDrawStringConstant.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Circle" Collapsed="true">
+    <Position X="25.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAgACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\Collider\Collider.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LineSegment" Collapsed="true">
+    <Position X="29.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Game\PlayScene\Collider\Collider.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Sphere" Collapsed="true">
+    <Position X="34.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\Collider\Collider.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AABB" Collapsed="true">
+    <Position X="22.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAFAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Game\PlayScene\Collider\Collider.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DirectX::VertexPositionTexture" Collapsed="true">
+    <Position X="24" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAACAAAIAAAAAAAAAAAAAAgAgAAAAA=</HashCode>
+      <FileName>Libraries\DirectXTK\Inc\VertexTypes.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="DX::IDeviceNotify" Collapsed="true">
+    <Position X="22.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeviceResources.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="eGameScene" Collapsed="true">
+    <Position X="24" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACCAAAAAQAAAAAEAEAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Game\GameMain.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSelectNum" Collapsed="true">
+    <Position X="25.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAAAAAAAAARAIBAAAAAgEAAAAAAQCAAAAAAI=</HashCode>
+      <FileName>Game\StageSelect\StageNumer.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eLoadScene" Collapsed="true">
+    <Position X="29.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAACCAAAAAQAAAAAEAEAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Game\Manager\ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eFileReading" Collapsed="true">
+    <Position X="22.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAQAgAAAA=</HashCode>
+      <FileName>Game\Manager\ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AdCSV" Collapsed="true">
+    <Position X="22.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Administrator\Administrator.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eSunState" Collapsed="true">
+    <Position X="31" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAACAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Administrator\eSunState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ePlayerState" Collapsed="true">
+    <Position X="34.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\Player.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eAttackState" Collapsed="true">
+    <Position X="25.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\ActionStateAttackEnemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ePlayerActionState" Collapsed="true">
+    <Position X="32.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAACBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\PlayerActionState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eDefenseActionState" Collapsed="true">
+    <Position X="31" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\Defense\eDefenseActionState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eStatePlayer" Collapsed="true">
+    <Position X="29.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Player\PlayerStateBase.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eAngleEnemy" Collapsed="true">
+    <Position X="24" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAIAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\AngleEnemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eChangeAfterAngle" Collapsed="true">
+    <Position X="29.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAIAQAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\AngleEnemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eEnemyWalkState" Collapsed="true">
+    <Position X="36.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\AngleEnemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eStateEnemy" Collapsed="true">
+    <Position X="27.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAggACCAABAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Enemy\StateEnemy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eGridLineType" Collapsed="true">
+    <Position X="25.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\GridLine\GridLineType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eWallPos" Collapsed="true">
+    <Position X="34.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAgAAAQAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Wall\WallConstant.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eBoomerangState" Collapsed="true">
+    <Position X="27.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACQAAAAAAAAAAAACQBAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\BoomerangState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eWeaponType" Collapsed="true">
+    <Position X="36.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAQAAAAAAAQhAAAAAAACAAAAAAQA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponeType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eHandState" Collapsed="true">
+    <Position X="27.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneCommon\Weapon\WeaponHand.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eResultDrawString" Collapsed="true">
+    <Position X="22.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAIACgAAgAAAAAAAAIACAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneResult\ResultDrawString.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ePlayScenePhase" Collapsed="true">
+    <Position X="36.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAAAAAABAAQAEAAAAAAAAAAAAAAAAAAAQBAA=</HashCode>
+      <FileName>Game\PlayScene\PlayScenePhase\PlayScenePhase.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eRotationState" Collapsed="true">
+    <Position X="24" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneRotationCamera\RotationState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eEffectFileReading" Collapsed="true">
+    <Position X="32.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAQAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAEA=</HashCode>
+      <FileName>Game\PlayScene\Effect\EffectManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eEffectType" Collapsed="true">
+    <Position X="34.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQEAAAAAQAAAQBAAAAAAAgAAAAAAACAAEAAAAA=</HashCode>
+      <FileName>Game\PlayScene\Effect\EffectType.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eUseEndAnim" Collapsed="true">
+    <Position X="32.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneEndAnimation\EndAnimationState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eLoseAnimStep" Collapsed="true">
+    <Position X="31" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAQCAAAACAYAAAAAAgAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneEndAnimation\EndAnimationState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eWinAnimStep" Collapsed="true">
+    <Position X="22.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAACAQAAAAAAgAAAAAAAAAAAAAQAAAg=</HashCode>
+      <FileName>Game\PlayScene\PlaySceneEndAnimation\EndAnimationState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>
